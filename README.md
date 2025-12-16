@@ -15,12 +15,18 @@ Incluye todas las pantallas necesarias para un sistema de registro, login y pane
 En esta etapa se entregan los bocetos, prototipos y documentación del diseño.
 
 
-##  Objetivo del proyecto
-- Diseñar la estructura visual y funcional de una SPA.  
-- Definir la identidad visual (colores, tipografía, componentes, UI).  
-- Representar las pantallas obligatorias en formato desktop y mobile.  
-- Describir el flujo funcional del usuario según los requisitos técnicos.  
-- Preparar la estructura inicial del repositorio para las siguientes etapas.
+##  Objetivos de la aplicación
+
+Cloudy tiene como objetivo ofrecer una estructura clara y accesible de una aplicación web tipo SPA, permitiendo a los usuarios:
+
+- Registrarse de forma segura mediante un formulario validado.
+- Iniciar sesión con sus credenciales personales.
+- Acceder a un panel de trabajo privado una vez autenticados.
+- Mantener una experiencia de navegación fluida sin recargar la página.
+- Utilizar la aplicación tanto en dispositivos móviles como en computadoras.
+
+La aplicación está diseñada para ser simple, intuitiva y escalable, dejando preparado el espacio para incorporar nuevas funcionalidades en etapas posteriores del desarrollo.
+
 
 
 
