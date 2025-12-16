@@ -64,25 +64,12 @@ posteriores del desarrollo.
 ---
 
 ## Estructura del proyecto
-Cloudy/
-│
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ ├── navigation.js
-│ ├── storage.js
-│ ├── register.js
-│ ├── login.js
-│ └── session.js
-└── assets/
-└── logo.png
 
-yaml
-Copiar código
+<img width="300" height="278" alt="image" src="https://github.com/user-attachments/assets/ba226bec-e671-4097-8b96-c830a40c8d29" />
 
 ---
 
 ## Autor
 Nico Campos
+
 
