@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloudy</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= HOME ================= -->
+  <section id="home" class="view active">
+    <div class="container home">
+      <img src="assets/logo.png" alt="Logo Cloudy" class="logo">
+
+      <h1 class="title">Cloudy</h1>
+
+      <button id="btnGoLogin">Iniciar sesión</button>
+      <button id="btnGoRegister">Registrarse</button>
+    </div>
+  </section>
+
+  <!-- ================= LOGIN ================= -->
+  <section id="login" class="view">
+    <div class="container">
+
+      <button id="btnBackFromLogin" class="btn-back">Volver</button>
+
+      <h2 class="title-box">Iniciar sesión</h2>
+
+      <form id="loginForm">
+
+        <div class="form-row">
+          <label>Usuario / Gmail</label>
+          <input type="text" id="loginUser" required>
+        </div>
+
+        <div class="form-row">
+          <label>Contraseña</label>
+          <input type="password" id="loginPassword" required>
+        </div>
+
+        <p id="loginError" class="error-text hidden"></p>
+
+        <div class="buttons-row">
+          <button type="button" id="btnGoRegisterFromLogin">CREAR CUENTA</button>
+          <button type="submit">ENTRAR</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= REGISTRO ================= -->
+  <section id="register" class="view">
+    <div class="container">
+
+      <button id="btnBackFromRegister" class="btn-back">Volver</button>
+      <button id="btnGoLoginFromRegister" class="btn-top-right">Iniciar sesión</button>
+
+      <h2 class="title-box">Registrarse</h2>
+
+      <form id="registerForm">
+
+        <div class="form-row">
+          <label>Nombre y apellido</label>
+          <input type="text" id="regName" required>
+        </div>
+
+        <div class="form-row">
+          <label>Email</label>
+          <input type="email" id="regEmail" required>
+        </div>
+
+        <div class="form-row">
+          <label>Usuario</label>
+          <input type="text" id="regUsername" required>
+        </div>
+
+        <div class="form-row">
+          <label>Contraseña</label>
+          <input type="password" id="regPassword" required>
+        </div>
+
+        <div class="form-row">
+          <label>Confirmar contraseña</label>
+          <input type="password" id="regPasswordConfirm" required>
+        </div>
+
+        <p id="registerError" class="error-text hidden"></p>
+
+        <button type="submit">CREAR CUENTA</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= PANEL ================= -->
+  <section id="panel" class="view">
+    <header class="panel-header">
+      <p id="welcomeMessage"></p>
+      <button id="btnLogout">Salir</button>
+    </header>
+
+    <div class="panel-content">
+      <h3>ACTIVIDAD ESPECÍFICA – ETAPA 3</h3>
+
+      <div id="stage3Container" class="stage-3">
+        <!-- Aquí se desarrollará la funcionalidad de la Etapa 3 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LOGOUT ================= -->
+  <section id="logout" class="view">
+    <div class="container logout">
+      <h2 id="logoutTitle"></h2>
+      <p>Usuario cerrado correctamente</p>
+      <button id="btnBackHomeFromLogout">Inicio</button>
+    </div>
+  </section>
+
+  <!-- ================= JS ================= -->
+  <script src="js/navigation.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/register.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/session.js"></script>
+
+</body>
+</html>
