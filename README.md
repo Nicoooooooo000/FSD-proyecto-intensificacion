@@ -6,7 +6,7 @@ Repositorio del proyecto **Cloudy**, desarrollado para la intensificación 2025 
 
 En esta etapa se implementa una **Single Page Application funcional**, incorporando
 registro de usuarios, inicio de sesión, manejo de sesión y navegación sin recargar
-la página.
+la página, más la implementación de la lista de tareas personales para el usuario.
 
 ---
 
@@ -21,7 +21,7 @@ minimalista, clara y moderna.
 
 La aplicación permite a los usuarios registrarse, iniciar sesión y acceder a un
 panel privado, manteniendo una experiencia de navegación fluida sin recargar
-la página. El diseño es responsive y se adapta tanto a dispositivos móviles como
+la página, este diseño amigable permite al usuario tambien agregar lista de cosas pendientes. El diseño es responsive y se adapta tanto a dispositivos móviles como
 a computadoras.
 
 ---
@@ -38,9 +38,7 @@ aplicación web tipo SPA, permitiendo a los usuarios:
 - Navegar entre pantallas sin recargar la página.
 - Utilizar la aplicación en dispositivos móviles y de escritorio.
 
-La aplicación está diseñada para ser simple, intuitiva y escalable, dejando
-preparado el espacio para incorporar nuevas funcionalidades en etapas
-posteriores del desarrollo.
+La aplicación está diseñada para ser simple, intuitiva y escalable, siendo capaz de que el usuario agregue sus propias tareas pendientes.
 
 ---
 
@@ -52,14 +50,14 @@ posteriores del desarrollo.
 
 ---
 
-## Funcionalidades implementadas (Etapa 2)
+## Funcionalidades implementadas (Etapa 2 y 3)
 - Navegación SPA sin recarga de página.
 - Registro de usuarios con validaciones.
 - Inicio de sesión con control de credenciales.
 - Sesión persistente.
 - Cierre de sesión (logout).
 - Diseño responsive.
-- Estructura preparada para la Etapa 3.
+- Implementación de lista para pendientes personales.
 
 ---
 
@@ -81,11 +79,7 @@ ordenada.
 ---
 
 ## Funciones principales
-- showView(): controla la navegación entre pantallas.
-- getUsers() / saveUsers(): gestión de usuarios en LocalStorage.
-- findUser(): búsqueda de usuario por email o username.
-- saveSession() / getSession(): manejo de sesión activa.
-- clearSession(): cierre de sesión.
+La función principal de la aplicación es que el usuario guarde una lista de pendientes que tenga, siendo capaz de eliminarlos en el caso que ya se haya cumplido la tarea. Cada usuario tiene su propias tareas individuales y personales, siendo capaz de que diferentes cuentas tengan diferentes tareas.
 
 ---
 
